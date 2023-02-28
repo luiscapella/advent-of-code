@@ -5,7 +5,7 @@ a = [[int(j) for j in i.split("\n") if j] for i in a.split("\n\n")]
 for i in len(a):
     
 #one line solution
-print(max(sum(i) for i in a))
+#print(max(sum(i) for i in a))
 
 #more readable solution using pandas dataframe
 #import pandas as pd
